@@ -1,10 +1,12 @@
-// import logo from './logo.svg';
-import './App.css';
+import { GlobalStyled } from './global.stayled'
 import Btn from './components/btn.js';
 function App() {
   return (
     <>
-      <Btn type='skelaton' btn_color='green' content='button' />
+      <GlobalStyled />
+      <Btn type='normal' color='blue' content='button' />
+      <Btn type='skelaton' color='blue' content='button' />
+      <Btn type='normal' color='red' content='button' />
     </>
   );
 }
