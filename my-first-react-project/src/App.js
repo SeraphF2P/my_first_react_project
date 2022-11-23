@@ -1,12 +1,14 @@
-import { GlobalStyled } from './global.stayled'
-import Btn from './components/btn.js';
+import { GlobalStyled } from './global.stayled';
+import { Btn } from './components/btn.js';
+
+import React from 'react';
 function App() {
   return (
     <>
       <GlobalStyled />
-      <Btn type='normal' color='blue' content='button' />
-      <Btn type='skelaton' color='blue' content='button' />
-      <Btn type='normal' color='red' content='button' />
+      <Btn type='skelaton' color='blue'>button</Btn>
+      <Btn type='skelaton' color='blue'  >button</Btn>
+      <Btn type='normal' color='red' >button</Btn>
     </>
   );
 }
