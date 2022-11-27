@@ -1,2 +1,0 @@
-its my very first time to use react it dosen't seem that hard but still couldn't find away to achieve what I wanted but i still lerning for it
-the btn.js file will contain Btn component witch can be modified into deferent style of button just by selecting the type attribute
